@@ -1,0 +1,28 @@
+{
+  "name": "cicdexample",
+  "version": "1.0.0",
+  "description": "continues integration and continues deployment example",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReneCode/cicdexample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReneCode/cicdexample/issues"
+  },
+  "homepage": "https://github.com/ReneCode/cicdexample#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta5"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.0.2"
+  }
+}
