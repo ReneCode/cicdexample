@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-    - "5.111"
+    - "5.11"
 
 install:
     npm install 
